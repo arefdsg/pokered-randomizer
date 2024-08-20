@@ -1,11 +1,11 @@
-Music_Ronald:
+Music_TCGRonald:
 	channel_count 4
-	channel 1, Music_Ronald_Ch1
-	channel 2, Music_Ronald_Ch2
-	channel 3, Music_Ronald_Ch3
-	channel 4, Music_Ronald_Ch4
+	channel 1, Music_TCGRonald_Ch1
+	channel 2, Music_TCGRonald_Ch2
+	channel 3, Music_TCGRonald_Ch3
+	channel 4, Music_TCGRonald_Ch4
 
-Music_Ronald_Ch1:
+Music_TCGRonald_Ch1:
 	stereo_panning TRUE, TRUE
 	vibrato 12, 3, 3
 	duty_cycle 0
@@ -468,7 +468,7 @@ Branch_fa9ec:
 	rest 1
 	sound_ret
 
-Music_Ronald_Ch2:
+Music_TCGRonald_Ch2:
 	stereo_panning TRUE, TRUE
 	vibrato 12, 3, 3
 	duty_cycle 0
@@ -881,7 +881,7 @@ Branch_fabb1:
 	note C_, 1
 	sound_ret
 
-Music_Ronald_Ch3:
+Music_TCGRonald_Ch3:
 	speed 1
 	stereo_panning TRUE, TRUE
 	channel_volume 1
@@ -1153,7 +1153,7 @@ Branch_facc5:
 	rest 7
 	sound_ret
 
-Music_Ronald_Ch4:
+Music_TCGRonald_Ch4:
 	toggle_noise 6
 	drum_speed 1
 	octave 1

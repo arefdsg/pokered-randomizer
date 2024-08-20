@@ -20,4 +20,5 @@
 	     CUT
 	; end
 
-	db 0 ; padding
+	;db 0 ; padding
+	db BANK(VenusaurPicFront)

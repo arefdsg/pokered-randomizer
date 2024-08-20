@@ -70,113 +70,141 @@ ROMX $8
 ;	"Music 2"
 ROMX $9
 	"Pics 1"
-	"Battle Engine 3"
 ROMX $A
 	"Pics 2"
-	"Battle Engine 4"
 ROMX $B
 	"Pics 3"
-	"Battle Engine 5"
 ROMX $C
 	"Pics 4"
-	"Battle Engine 6"
 ROMX $D
 	"Pics 5"
+ROMX $15
+	"Battle Engine 3"
+	"Songs 1"
+	"Battle Engine 4"
+	"Battle Engine 5"	
+ROMX $16
+	"Battle Engine 6"
 	"Slot Machines"
-ROMX $E
+	"RBY Songs 1"
+	"TCG2 Songs 1b"
+ROMX $17
 	"Battle Engine 7"
-ROMX $F
+ROMX $18
 	"Battle Core"
-ROMX $10
+	"Predefs"
+ROMX $19
 	"bank10"
-ROMX $11
+	"Pinball Songs 1"
+ROMX $1A
 	"Maps 5"
 	"Pokédex Rating"
 	"Maps 6"
 	"Hidden Objects Core"
-ROMX $12
+ROMX $1B
 	"Maps 7"
 	"Screen Effects"
 	"Maps 8"
-ROMX $13
-	"Pics 6"
+	"Cries"
+ROMX $1C
+	"Trainer Pics"
 	"Maps 9"
-	"Predefs"
-ROMX $14
+ROMX $1D
 	"Maps 10"
 	"Battle Engine 8"
 	"Hidden Objects 2"
-ROMX $15
+	"Pinball Songs 5"
+ROMX $1E
 	"Maps 11"
 	"Battle Engine 9"
 	"Maps 12"
 	"Diploma"
 	"Trainer Sight"
-ROMX $16
+ROMX $1F
 	"Maps 13"
 	"Battle Engine 10"
 	"Maps 14"
 	"Saffron Guards"
-ROMX $17
+	"Pinball Songs 3"
+ROMX $20
 	"Maps 15"
 	"Starter Dex"
 	"Maps 16"
 	"Hidden Objects 3"
-ROMX $18
+	"Sound Effects"
+ROMX $21
 	"Maps 17"
 	"Cinnabar Lab Fossils"
 	"Maps 18"
 	"Hidden Objects 4"
-ROMX $19
+	"Songs 5"
+ROMX $22
 	"Tilesets 1"
-ROMX $1A
+ROMX $23
 	"Battle Engine 11"
 	"Tilesets 2"
-ROMX $1B
+ROMX $24
 	"Tilesets 3"
-ROMX $1C
+ROMX $25
 	"bank1C"
-ROMX $1D
+ROMX $26
 	"Maps 19"
 	"Itemfinder 1"
 	"Maps 20"
 	"Vending Machine"
 	"Maps 21"
 	"Itemfinder 2"
-ROMX $1E
+ROMX $27
 	"bank1E"
-ROMX $1F
+ROMX $28
 	"Sound Effect Headers 3"
 ;	"Music Headers 3"
 	"Sound Effects 3"
+	"Extra Songs 1"
+	"TCG2 Songs 2b"
+	"Songs 3"
+	"RBY Songs 4"
 ;	"Audio Engine 3"
 ;	"Music 3"
-ROMX $20
-	"Text 1"
-ROMX $21
-	"Text 2"
-ROMX $22
-	"Text 3"
-ROMX $23
-	"Text 4"
-ROMX $24
-	"Text 5"
-ROMX $25
-	"Text 6"
-ROMX $26
-	"Text 7"
-ROMX $27
-	"Text 8"
-ROMX $28
-	"Text 9"
 ROMX $29
-	"Text 10"
+	"Text 1"
 ROMX $2A
-	"Text 11"
+	"Text 2"
 ROMX $2B
-	"Pokédex Text"
+	"Text 3"
 ROMX $2C
+	"Text 4"
+ROMX $2D
+	"Text 5"
+ROMX $2E
+	"Text 6"
+ROMX $2F
+	"Text 7"
+ROMX $30
+	"Text 8"
+ROMX $31
+	"Text 9"
+ROMX $32
+	"Text 10"
+ROMX $33
+	"Text 11"
+	"TCG2 Songs 1"
+ROMX $34
+	"Pokédex Text"
+ROMX $35
 	"Move Names"
+	"TCG2 Songs 3"
+ROMX $36
+	"Evos Moves"
+ROMX $37
+	"Songs 2"
+ROMX $38
+	"Songs 4"
+ROMX $39
+	"TCG Songs 1"
+ROMX $3A
+	"TCG Songs 2"
+	"RBY Songs 2"
 WRAM0
 	"Audio RAM"
 	org $c100

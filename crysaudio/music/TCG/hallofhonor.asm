@@ -1,10 +1,10 @@
-Music_HallOfHonor:
+Music_TCGHallOfHonor:
 	channel_count 3
-	channel 1, Music_HallOfHonor_Ch1
-	channel 2, Music_HallOfHonor_Ch2
-	channel 3, Music_HallOfHonor_Ch3
+	channel 1, Music_TCGHallOfHonor_Ch1
+	channel 2, Music_TCGHallOfHonor_Ch2
+	channel 3, Music_TCGHallOfHonor_Ch3
 
-Music_HallOfHonor_Ch1:
+Music_TCGHallOfHonor_Ch1:
 	speed 7
 	stereo_panning TRUE, TRUE
 	duty_cycle 2
@@ -96,7 +96,7 @@ Branch_fb044:
 	note F_, 1
 	sound_ret
 
-Music_HallOfHonor_Ch2:
+Music_TCGHallOfHonor_Ch2:
 	speed 7
 	stereo_panning TRUE, TRUE
 	duty_cycle 2
@@ -180,7 +180,7 @@ Branch_fb1ec_Ch2:
 	rest 1
 	sound_ret
 
-Music_HallOfHonor_Ch3:
+Music_TCGHallOfHonor_Ch3:
 	speed 7
 	channel_volume 2
 	stereo_panning TRUE, TRUE

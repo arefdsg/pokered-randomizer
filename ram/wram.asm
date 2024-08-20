@@ -1560,6 +1560,8 @@ wMonHMoves:: ds NUM_MOVES
 wMonHGrowthRate:: db
 wMonHLearnset:: flag_array NUM_TMS + NUM_HMS
 	ds 1
+wMonSpriteBank::
+	ds 1
 wMonHeaderEnd::
 
 ; saved at the start of a battle and then written back at the end of the battle

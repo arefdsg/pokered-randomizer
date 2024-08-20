@@ -19,4 +19,5 @@
 	     BIDE,         REST,         PSYWAVE,      SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	;db 0 ; padding
+	db BANK(VenonatPicFront)

@@ -20,4 +20,5 @@
 	     SKULL_BASH,   REST,         SUBSTITUTE,   STRENGTH
 	; end
 
-	db 0 ; padding
+	;db 0 ; padding
+	db BANK(HitmonleePicFront)

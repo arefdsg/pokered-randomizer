@@ -1,11 +1,11 @@
-Music_EndCredits:
+Music_PinballCredits:
 	channel_count 4
-	channel 1, Music_EndCredits_Ch1
-	channel 2, Music_EndCredits_Ch2
-	channel 3, Music_EndCredits_Ch3
-	channel 4, Music_EndCredits_Ch4
+	channel 1, Music_PinballCredits_Ch1
+	channel 2, Music_PinballCredits_Ch2
+	channel 3, Music_PinballCredits_Ch3
+	channel 4, Music_PinballCredits_Ch4
 
-Music_EndCredits_Ch1:
+Music_PinballCredits_Ch1:
 	tempo 144
 	volume 7, 7
 	pitch_offset 1
@@ -26,7 +26,7 @@ Music_EndCredits_Ch1:
 	note B_, 2
 	note A_, 2
 	note G_, 2
-Music_EndCredits_branch_4ccdf:
+Music_PinballCredits_branch_4ccdf:
 	note_type 6, 4, 8
 	octave 3
 	note A_, 1
@@ -37,8 +37,8 @@ Music_EndCredits_branch_4ccdf:
 	note D_, 1
 	volume_envelope 1, 8
 	note D_, 1
-	sound_loop 2, Music_EndCredits_branch_4ccdf
-Music_EndCredits_branch_4ccf2:
+	sound_loop 2, Music_PinballCredits_branch_4ccdf
+Music_PinballCredits_branch_4ccf2:
 	volume_envelope 6, 8
 	octave 3
 	note A_, 1
@@ -49,8 +49,8 @@ Music_EndCredits_branch_4ccf2:
 	note D_, 1
 	volume_envelope 2, 8
 	note D_, 1
-	sound_loop 2, Music_EndCredits_branch_4ccf2
-Music_EndCredits_branch_4cd04:
+	sound_loop 2, Music_PinballCredits_branch_4ccf2
+Music_PinballCredits_branch_4cd04:
 	volume_envelope 8, 8
 	octave 3
 	note A_, 1
@@ -61,7 +61,7 @@ Music_EndCredits_branch_4cd04:
 	note F#, 1
 	volume_envelope 2, 8
 	note F#, 1
-	sound_loop 2, Music_EndCredits_branch_4cd04
+	sound_loop 2, Music_PinballCredits_branch_4cd04
 	volume_envelope 10, 8
 	octave 3
 	note A_, 1
@@ -76,12 +76,12 @@ Music_EndCredits_branch_4cd04:
 	note D_, 4
 	duty_cycle 3
 	volume_envelope 9, 8
-	sound_call Music_EndCredits_branch_4cef5
-Music_EndCredits_branch_4cd2e:
+	sound_call Music_PinballCredits_branch_4cef5
+Music_PinballCredits_branch_4cd2e:
 	transpose 0, 1
-	sound_call Music_EndCredits_branch_4cef5
+	sound_call Music_PinballCredits_branch_4cef5
 	transpose 0, 5
-	sound_call Music_EndCredits_branch_4cef5
+	sound_call Music_PinballCredits_branch_4cef5
 	transpose 0, 0
 	note D_, 2
 	rest 2
@@ -455,9 +455,9 @@ Music_EndCredits_branch_4cd2e:
 	rest 2
 	note B_, 2
 	rest 10
-	sound_loop 0, Music_EndCredits_branch_4cd2e
+	sound_loop 0, Music_PinballCredits_branch_4cd2e
 
-Music_EndCredits_branch_4cef5:
+Music_PinballCredits_branch_4cef5:
 	octave 3
 	note B_, 2
 	rest 2
@@ -473,7 +473,7 @@ Music_EndCredits_branch_4cef5:
 	rest 10
 	sound_ret
 
-Music_EndCredits_Ch2:
+Music_PinballCredits_Ch2:
 	vibrato 20, 2, 4
 	duty_cycle 2
 	note_type 12, 11, 3
@@ -507,10 +507,10 @@ Music_EndCredits_Ch2:
 	note G_, 2
 	volume_envelope 2, 8
 	note G_, 2
-	sound_call Music_EndCredits_branch_4d1f2
-Music_EndCredits_branch_4cf36:
+	sound_call Music_PinballCredits_branch_4d1f2
+Music_PinballCredits_branch_4cf36:
 	transpose 0, 2
-	sound_call Music_EndCredits_branch_4d21e
+	sound_call Music_PinballCredits_branch_4d21e
 	note A_, 2
 	volume_envelope 2, 8
 	note A_, 2
@@ -534,7 +534,7 @@ Music_EndCredits_branch_4cf36:
 	volume_envelope 2, 8
 	note G_, 1
 	transpose 0, 5
-	sound_call Music_EndCredits_branch_4d21e
+	sound_call Music_PinballCredits_branch_4d21e
 	octave 5
 	note C_, 2
 	volume_envelope 2, 8
@@ -552,7 +552,7 @@ Music_EndCredits_branch_4cf36:
 	note C#, 1
 	note C_, 1
 	transpose 0, 4
-	sound_call Music_EndCredits_branch_4d21e
+	sound_call Music_PinballCredits_branch_4d21e
 	note G_, 1
 	volume_envelope 2, 8
 	note G_, 1
@@ -673,7 +673,7 @@ Music_EndCredits_branch_4cf36:
 	octave 4
 	note A#, 8
 	duty_cycle 2
-	sound_call Music_EndCredits_branch_4d24f
+	sound_call Music_PinballCredits_branch_4d24f
 	note B_, 2
 	volume_envelope 2, 8
 	note B_, 2
@@ -681,7 +681,7 @@ Music_EndCredits_branch_4cf36:
 	octave 5
 	note C_, 4
 	note D_, 4
-	sound_call Music_EndCredits_branch_4d24f
+	sound_call Music_PinballCredits_branch_4d24f
 	note G_, 4
 	note A_, 4
 	note G_, 4
@@ -718,7 +718,7 @@ Music_EndCredits_branch_4cf36:
 	note F_, 1
 	note F#, 7
 	vibrato 20, 0, 4
-	sound_call Music_EndCredits_branch_4d23e
+	sound_call Music_PinballCredits_branch_4d23e
 	volume_envelope 10, 8
 	note G_, 6
 	octave 2
@@ -737,13 +737,13 @@ Music_EndCredits_branch_4cf36:
 	volume_envelope 10, 8
 	octave 2
 	note D_, 6
-Music_EndCredits_branch_4d073:
+Music_PinballCredits_branch_4d073:
 	octave 5
 	note G_, 1
 	volume_envelope 2, 8
 	note G_, 1
 	volume_envelope 10, 8
-	sound_loop 3, Music_EndCredits_branch_4d073
+	sound_loop 3, Music_PinballCredits_branch_4d073
 	note F#, 6
 	octave 2
 	note D_, 1
@@ -758,35 +758,35 @@ Music_EndCredits_branch_4d073:
 	volume_envelope 2, 8
 	note C#, 1
 	volume_envelope 10, 8
-	sound_call Music_EndCredits_branch_4d23e
+	sound_call Music_PinballCredits_branch_4d23e
 	volume_envelope 6, 8
 	note G_, 6
-Music_EndCredits_branch_4d098:
+Music_PinballCredits_branch_4d098:
 	volume_envelope 6, 8
 	note G_, 1
 	volume_envelope 1, 8
 	note G_, 1
-	sound_loop 3, Music_EndCredits_branch_4d098
+	sound_loop 3, Music_PinballCredits_branch_4d098
 	volume_envelope 8, 8
 	note G#, 6
-Music_EndCredits_branch_4d0a5:
+Music_PinballCredits_branch_4d0a5:
 	volume_envelope 7, 8
 	note G#, 1
 	volume_envelope 1, 8
 	note G#, 1
-	sound_loop 3, Music_EndCredits_branch_4d0a5
-Music_EndCredits_branch_4d0af:
+	sound_loop 3, Music_PinballCredits_branch_4d0a5
+Music_PinballCredits_branch_4d0af:
 	note_type 12, 10, 8
 	note A_, 1
 	volume_envelope 2, 8
 	note A_, 1
-	sound_loop 2, Music_EndCredits_branch_4d0af
-Music_EndCredits_branch_4d0ba:
+	sound_loop 2, Music_PinballCredits_branch_4d0af
+Music_PinballCredits_branch_4d0ba:
 	note_type 8, 11, 8
 	note A_, 1
 	volume_envelope 2, 8
 	note A_, 1
-	sound_loop 2, Music_EndCredits_branch_4d0ba
+	sound_loop 2, Music_PinballCredits_branch_4d0ba
 	volume_envelope 11, 8
 	note A_, 1
 	vibrato 20, 2, 4
@@ -941,30 +941,30 @@ Music_EndCredits_branch_4d0ba:
 	note D_, 2
 	volume_envelope 2, 8
 	note D_, 2
-Music_EndCredits_branch_4d1a3:
+Music_PinballCredits_branch_4d1a3:
 	volume_envelope 11, 8
 	octave 5
 	note C_, 1
 	volume_envelope 2, 8
 	note C_, 1
-	sound_loop 2, Music_EndCredits_branch_4d1a3
+	sound_loop 2, Music_PinballCredits_branch_4d1a3
 	volume_envelope 11, 8
 	note C_, 4
 	volume_envelope 2, 8
 	note C_, 2
 	rest 2
-Music_EndCredits_branch_4d1b5:
+Music_PinballCredits_branch_4d1b5:
 	volume_envelope 11, 8
 	note C_, 1
 	volume_envelope 2, 8
 	note C_, 1
-	sound_loop 2, Music_EndCredits_branch_4d1b5
-Music_EndCredits_branch_4d1bf:
+	sound_loop 2, Music_PinballCredits_branch_4d1b5
+Music_PinballCredits_branch_4d1bf:
 	volume_envelope 11, 8
 	note C#, 2
 	volume_envelope 2, 8
 	note C#, 2
-	sound_loop 2, Music_EndCredits_branch_4d1bf
+	sound_loop 2, Music_PinballCredits_branch_4d1bf
 	note_type 8, 11, 8
 	note C#, 1
 	volume_envelope 2, 8
@@ -987,10 +987,10 @@ Music_EndCredits_branch_4d1bf:
 	note G_, 2
 	volume_envelope 2, 8
 	note G_, 2
-	sound_call Music_EndCredits_branch_4d1f2
-	sound_loop 0, Music_EndCredits_branch_4cf36
+	sound_call Music_PinballCredits_branch_4d1f2
+	sound_loop 0, Music_PinballCredits_branch_4cf36
 
-Music_EndCredits_branch_4d1f2:
+Music_PinballCredits_branch_4d1f2:
 	volume_envelope 10, 8
 	octave 4
 	note G_, 4
@@ -1023,7 +1023,7 @@ Music_EndCredits_branch_4d1f2:
 	rest 4
 	sound_ret
 
-Music_EndCredits_branch_4d21e:
+Music_PinballCredits_branch_4d21e:
 	note_type 6, 10, 8
 	octave 4
 	note G_, 2
@@ -1046,20 +1046,20 @@ Music_EndCredits_branch_4d21e:
 	transpose 0, 0
 	sound_ret
 
-Music_EndCredits_branch_4d23e:
+Music_PinballCredits_branch_4d23e:
 	note_type 8, 10, 8
 	octave 2
 	note D_, 6
-Music_EndCredits_branch_4d243:
+Music_PinballCredits_branch_4d243:
 	volume_envelope 10, 8
 	octave 5
 	note F#, 1
 	volume_envelope 2, 8
 	note F#, 1
-	sound_loop 3, Music_EndCredits_branch_4d243
+	sound_loop 3, Music_PinballCredits_branch_4d243
 	sound_ret
 
-Music_EndCredits_branch_4d24f:
+Music_PinballCredits_branch_4d24f:
 	octave 4
 	note B_, 4
 	note A#, 4
@@ -1071,7 +1071,7 @@ Music_EndCredits_branch_4d24f:
 	volume_envelope 10, 8
 	sound_ret
 
-Music_EndCredits_Ch3:
+Music_PinballCredits_Ch3:
 	note_type 8, 1, 2
 	octave 1
 	note D_, 1
@@ -1103,13 +1103,13 @@ Music_EndCredits_Ch3:
 	volume_envelope 2, 2
 	note D_, 1
 	note D_, 1
-	sound_call Music_EndCredits_branch_4d401
+	sound_call Music_PinballCredits_branch_4d401
 	rest 2
 	octave 1
 	note G_, 2
 	rest 6
-Music_EndCredits_branch_4d28e:
-	sound_call Music_EndCredits_branch_4d401
+Music_PinballCredits_branch_4d28e:
+	sound_call Music_PinballCredits_branch_4d401
 	volume_envelope 3, 2
 	octave 1
 	note A_, 1
@@ -1121,7 +1121,7 @@ Music_EndCredits_branch_4d28e:
 	rest 1
 	note G_, 1
 	rest 1
-	sound_call Music_EndCredits_branch_4d401
+	sound_call Music_PinballCredits_branch_4d401
 	rest 2
 	volume_envelope 3, 2
 	note G_, 4
@@ -1148,7 +1148,7 @@ Music_EndCredits_branch_4d28e:
 	octave 4
 	note B_, 6
 	rest 2
-Music_EndCredits_branch_4d2bd:
+Music_PinballCredits_branch_4d2bd:
 	octave 1
 	note G_, 2
 	rest 2
@@ -1170,7 +1170,7 @@ Music_EndCredits_branch_4d2bd:
 	note G_, 1
 	rest 1
 	volume_envelope 2, 2
-	sound_loop 2, Music_EndCredits_branch_4d2bd
+	sound_loop 2, Music_PinballCredits_branch_4d2bd
 	octave 2
 	note C_, 1
 	rest 1
@@ -1204,7 +1204,7 @@ Music_EndCredits_branch_4d2bd:
 	note C_, 2
 	note D_, 2
 	note C#, 8
-	sound_call Music_EndCredits_branch_4d412
+	sound_call Music_PinballCredits_branch_4d412
 	octave 2
 	note B_, 2
 	rest 2
@@ -1213,7 +1213,7 @@ Music_EndCredits_branch_4d2bd:
 	octave 1
 	note G_, 2
 	note G_, 2
-	sound_call Music_EndCredits_branch_4d412
+	sound_call Music_PinballCredits_branch_4d412
 	octave 2
 	note B_, 4
 	rest 4
@@ -1427,14 +1427,14 @@ Music_EndCredits_branch_4d2bd:
 	note A_, 12
 	octave 3
 	note D_, 12
-	sound_call Music_EndCredits_branch_4d401
+	sound_call Music_PinballCredits_branch_4d401
 	rest 2
 	octave 1
 	note G_, 2
 	rest 6
-	sound_loop 0, Music_EndCredits_branch_4d28e
+	sound_loop 0, Music_PinballCredits_branch_4d28e
 
-Music_EndCredits_branch_4d401:
+Music_PinballCredits_branch_4d401:
 	note_type 6, 2, 2
 	octave 2
 	note G_, 2
@@ -1451,7 +1451,7 @@ Music_EndCredits_branch_4d401:
 	note G_, 2
 	sound_ret
 
-Music_EndCredits_branch_4d412:
+Music_PinballCredits_branch_4d412:
 	octave 1
 	note G_, 1
 	rest 1
@@ -1471,7 +1471,7 @@ Music_EndCredits_branch_4d412:
 	rest 1
 	sound_ret
 
-Music_EndCredits_Ch4:
+Music_PinballCredits_Ch4:
 	toggle_noise 8
 	drum_speed 8
 	drum_note 3, 1
@@ -1483,10 +1483,10 @@ Music_EndCredits_Ch4:
 	drum_speed 6
 	drum_note 2, 1
 	drum_note 2, 1
-Music_EndCredits_branch_4d433:
+Music_PinballCredits_branch_4d433:
 	drum_speed 6
-	sound_call Music_EndCredits_branch_4d51d
-	sound_loop 4, Music_EndCredits_branch_4d433
+	sound_call Music_PinballCredits_branch_4d51d
+	sound_loop 4, Music_PinballCredits_branch_4d433
 	drum_note 5, 4
 	drum_note 2, 8
 	drum_note 3, 2
@@ -1568,8 +1568,8 @@ Music_EndCredits_branch_4d433:
 	drum_note 2, 2
 	drum_note 5, 4
 	drum_note 3, 12
-	sound_call Music_EndCredits_branch_4d51d
-Music_EndCredits_branch_4d493:
+	sound_call Music_PinballCredits_branch_4d51d
+Music_PinballCredits_branch_4d493:
 	drum_note 12, 8
 	drum_speed 8
 	drum_note 5, 2
@@ -1586,7 +1586,7 @@ Music_EndCredits_branch_4d493:
 	drum_note 2, 1
 	drum_note 2, 1
 	drum_note 2, 1
-	sound_loop 3, Music_EndCredits_branch_4d493
+	sound_loop 3, Music_PinballCredits_branch_4d493
 	drum_note 3, 4
 	drum_note 2, 4
 	drum_speed 8
@@ -1690,9 +1690,9 @@ Music_EndCredits_branch_4d493:
 	drum_note 3, 1
 	drum_note 3, 1
 	drum_note 12, 12
-	sound_loop 0, Music_EndCredits_branch_4d433
+	sound_loop 0, Music_PinballCredits_branch_4d433
 
-Music_EndCredits_branch_4d51d:
+Music_PinballCredits_branch_4d51d:
 	drum_note 5, 4
 	drum_note 2, 8
 	drum_note 3, 2

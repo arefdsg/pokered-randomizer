@@ -1,11 +1,11 @@
-Music_Title:
+Music_PinballTitle:
 	channel_count 4
-	channel 1, Music_Title_Ch1
-	channel 2, Music_Title_Ch2
-	channel 3, Music_Title_Ch3
-	channel 4, Music_Title_Ch4
+	channel 1, Music_PinballTitle_Ch1
+	channel 2, Music_PinballTitle_Ch2
+	channel 3, Music_PinballTitle_Ch3
+	channel 4, Music_PinballTitle_Ch4
 
-Music_Title_Ch1:
+Music_PinballTitle_Ch1:
 	tempo 130
 	volume 7, 7
 	pitch_offset 1
@@ -48,13 +48,13 @@ Music_Title_Ch1:
 	volume_envelope 10, 1
 	note C#, 2
 	note G_, 2
-Music_Title_branch_45d91:
+Music_PinballTitle_branch_45d91:
 	volume_envelope 8, 8
 	rest 4
 	octave 3
 	note C_, 2
 	rest 2
-	sound_loop 8, Music_Title_branch_45d91
+	sound_loop 8, Music_PinballTitle_branch_45d91
 	volume_envelope 6, 1
 	note F_, 2
 	note C#, 2
@@ -288,9 +288,9 @@ Music_Title_branch_45d91:
 	note A_, 8
 	volume_envelope 10, 7
 	note A#, 8
-	sound_loop 0, Music_Title_branch_45d91
+	sound_loop 0, Music_PinballTitle_branch_45d91
 
-Music_Title_Ch2:
+Music_PinballTitle_Ch2:
 	note_type 12, 11, 3
 	duty_cycle 2
 	vibrato 9, 2, 4
@@ -328,7 +328,7 @@ Music_Title_Ch2:
 	note C#, 2
 	note_type 12, 10, 8
 	note A#, 10
-Music_Title_branch_45ee7:
+Music_PinballTitle_branch_45ee7:
 	note_type 12, 10, 8
 	duty_cycle 2
 	octave 4
@@ -362,7 +362,7 @@ Music_Title_branch_45ee7:
 	note C#, 2
 	volume_envelope 10, 8
 	note D#, 2
-	sound_call Music_Title_branch_460da
+	sound_call Music_PinballTitle_branch_460da
 	volume_envelope 10, 8
 	note G#, 1
 	volume_envelope 2, 8
@@ -423,7 +423,7 @@ Music_Title_branch_45ee7:
 	volume_envelope 10, 8
 	note D#, 4
 	note_type 12, 10, 8
-	sound_call Music_Title_branch_460da
+	sound_call Music_PinballTitle_branch_460da
 	note_type 6, 10, 2
 	note G#, 2
 	note G_, 2
@@ -670,9 +670,9 @@ Music_Title_branch_45ee7:
 	note D_, 2
 	note_type 12, 10, 8
 	note D#, 16
-	sound_loop 0, Music_Title_branch_45ee7
+	sound_loop 0, Music_PinballTitle_branch_45ee7
 
-Music_Title_branch_460da:
+Music_PinballTitle_branch_460da:
 	note F_, 2
 	octave 3
 	note G#, 2
@@ -696,7 +696,7 @@ Music_Title_branch_460da:
 	note G#, 1
 	sound_ret
 
-Music_Title_Ch3:
+Music_PinballTitle_Ch3:
 	note_type 12, 2, 2
 	rest 2
 	octave 1
@@ -725,10 +725,10 @@ Music_Title_Ch3:
 	rest 1
 	note G_, 1
 	rest 1
-Music_Title_branch_46115:
+Music_PinballTitle_branch_46115:
 	note_type 12, 2, 2
-	sound_call Music_Title_branch_461df
-	sound_call Music_Title_branch_46210
+	sound_call Music_PinballTitle_branch_461df
+	sound_call Music_PinballTitle_branch_46210
 	note D#, 1
 	rest 1
 	note A#, 1
@@ -739,8 +739,8 @@ Music_Title_branch_46115:
 	rest 1
 	note D#, 1
 	rest 7
-	sound_call Music_Title_branch_461df
-	sound_call Music_Title_branch_46210
+	sound_call Music_PinballTitle_branch_461df
+	sound_call Music_PinballTitle_branch_46210
 	note D#, 1
 	rest 1
 	note A#, 1
@@ -756,8 +756,8 @@ Music_Title_branch_46115:
 	note_type 6, 2, 2
 	note A#, 8
 	note_type 12, 2, 2
-	sound_call Music_Title_branch_46210
-	sound_call Music_Title_branch_46222
+	sound_call Music_PinballTitle_branch_46210
+	sound_call Music_PinballTitle_branch_46222
 	octave 2
 	note A#, 1
 	rest 1
@@ -799,8 +799,8 @@ Music_Title_branch_46115:
 	rest 1
 	note A#, 1
 	rest 1
-	sound_call Music_Title_branch_46210
-	sound_call Music_Title_branch_46222
+	sound_call Music_PinballTitle_branch_46210
+	sound_call Music_PinballTitle_branch_46222
 	octave 2
 	note A#, 1
 	rest 1
@@ -874,9 +874,9 @@ Music_Title_branch_46115:
 	rest 1
 	octave 2
 	note D#, 4
-	sound_loop 0, Music_Title_branch_46115
+	sound_loop 0, Music_PinballTitle_branch_46115
 
-Music_Title_branch_461df:
+Music_PinballTitle_branch_461df:
 	octave 1
 	note G#, 1
 	rest 1
@@ -927,7 +927,7 @@ Music_Title_branch_461df:
 	rest 1
 	sound_ret
 
-Music_Title_branch_46210:
+Music_PinballTitle_branch_46210:
 	octave 2
 	note C#, 1
 	rest 1
@@ -947,7 +947,7 @@ Music_Title_branch_46210:
 	rest 1
 	sound_ret
 
-Music_Title_branch_46222:
+Music_PinballTitle_branch_46222:
 	note D#, 1
 	rest 1
 	octave 3
@@ -973,7 +973,7 @@ Music_Title_branch_46222:
 	rest 1
 	sound_ret
 
-Music_Title_Ch4:
+Music_PinballTitle_Ch4:
 	toggle_noise 8
 	drum_speed 8
 	drum_note 3, 1
@@ -989,10 +989,10 @@ Music_Title_Ch4:
 	drum_note 8, 1
 	drum_note 10, 1
 	drum_note 8, 1
-	sound_call Music_Title_branch_462b8
-Music_Title_branch_4624f:
+	sound_call Music_PinballTitle_branch_462b8
+Music_PinballTitle_branch_4624f:
 	drum_speed 12
-	sound_call Music_Title_branch_462cb
+	sound_call Music_PinballTitle_branch_462cb
 	drum_note 10, 2
 	drum_note 8, 1
 	drum_note 8, 1
@@ -1009,7 +1009,7 @@ Music_Title_branch_4624f:
 	drum_note 10, 2
 	drum_note 8, 1
 	drum_note 8, 1
-	sound_call Music_Title_branch_462cb
+	sound_call Music_PinballTitle_branch_462cb
 	drum_note 10, 2
 	drum_note 8, 1
 	drum_note 8, 1
@@ -1018,9 +1018,9 @@ Music_Title_branch_4624f:
 	drum_note 10, 1
 	drum_note 8, 1
 	drum_note 10, 8
-	sound_call Music_Title_branch_462cb
-	sound_call Music_Title_branch_462b8
-	sound_call Music_Title_branch_462cb
+	sound_call Music_PinballTitle_branch_462cb
+	sound_call Music_PinballTitle_branch_462b8
+	sound_call Music_PinballTitle_branch_462cb
 	drum_note 10, 1
 	drum_note 8, 1
 	drum_note 10, 1
@@ -1035,8 +1035,8 @@ Music_Title_branch_4624f:
 	rest 1
 	drum_note 12, 9
 	drum_speed 12
-	sound_call Music_Title_branch_462cb
-	sound_call Music_Title_branch_462cb
+	sound_call Music_PinballTitle_branch_462cb
+	sound_call Music_PinballTitle_branch_462cb
 	drum_note 10, 2
 	drum_note 8, 1
 	drum_note 8, 1
@@ -1050,7 +1050,7 @@ Music_Title_branch_4624f:
 	drum_note 10, 2
 	drum_note 8, 1
 	drum_note 8, 1
-Music_Title_branch_4629d:
+Music_PinballTitle_branch_4629d:
 	drum_note 10, 2
 	drum_note 8, 1
 	drum_note 8, 1
@@ -1058,14 +1058,14 @@ Music_Title_branch_4629d:
 	drum_note 8, 1
 	drum_note 10, 1
 	drum_note 8, 1
-	sound_loop 2, Music_Title_branch_4629d
-	sound_call Music_Title_branch_462cb
-	sound_call Music_Title_branch_462cb
-	sound_call Music_Title_branch_462cb
-	sound_call Music_Title_branch_462cb
-	sound_loop 0, Music_Title_branch_4624f
+	sound_loop 2, Music_PinballTitle_branch_4629d
+	sound_call Music_PinballTitle_branch_462cb
+	sound_call Music_PinballTitle_branch_462cb
+	sound_call Music_PinballTitle_branch_462cb
+	sound_call Music_PinballTitle_branch_462cb
+	sound_loop 0, Music_PinballTitle_branch_4624f
 
-Music_Title_branch_462b8:
+Music_PinballTitle_branch_462b8:
 	drum_note 10, 2
 	drum_note 8, 1
 	drum_note 8, 1
@@ -1084,9 +1084,9 @@ Music_Title_branch_462b8:
 	drum_note 8, 1
 	sound_ret
 
-Music_Title_branch_462cb:
+Music_PinballTitle_branch_462cb:
 	drum_note 10, 2
 	drum_note 8, 1
 	drum_note 8, 1
-	sound_loop 4, Music_Title_branch_462cb
+	sound_loop 4, Music_PinballTitle_branch_462cb
 	sound_ret

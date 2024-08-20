@@ -26,22 +26,23 @@ UncompressMonSprite::
 	ld a, BANK(FossilKabutopsPic)
 	jr z, .GotBank
 	ld a, b
-	cp TANGELA + 1
+	cp NIDOKING + 1
 	ld a, BANK("Pics 1")
 	jr c, .GotBank
 	ld a, b
-	cp MOLTRES + 1
+	cp MACHAMP + 1
 	ld a, BANK("Pics 2")
 	jr c, .GotBank
 	ld a, b
-	cp BEEDRILL + 2
+	cp KRABBY + 2
 	ld a, BANK("Pics 3")
 	jr c, .GotBank
 	ld a, b
-	cp STARMIE + 1
+	cp TAUROS + 1
 	ld a, BANK("Pics 4")
 	jr c, .GotBank
 	ld a, BANK("Pics 5")
+	
 .GotBank
 	jp UncompressSpriteData
 
@@ -54,6 +55,8 @@ LoadMonFrontSprite::
 	ld a, [hli]
 	ld c, a
 	pop de
+	and a
+	ret z ; no sprite
 	; fall through
 
 ; postprocesses uncompressed sprite chunks to a 2bpp sprite and loads it into video ram

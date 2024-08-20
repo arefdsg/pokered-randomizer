@@ -19,4 +19,5 @@
 	     EXPLOSION,    SUBSTITUTE
 	; end
 
-	db 0 ; padding
+	;db 0 ; padding
+	db BANK(KoffingPicFront)

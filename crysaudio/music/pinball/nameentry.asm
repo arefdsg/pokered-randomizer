@@ -1,11 +1,11 @@
-Music_NameEntry:
+Music_PinballNameEntry:
 	channel_count 4
-	channel 1, Music_NameEntry_Ch1
-	channel 2, Music_NameEntry_Ch2
-	channel 3, Music_NameEntry_Ch3
-	channel 4, Music_NameEntry_Ch4
+	channel 1, Music_PinballNameEntry_Ch1
+	channel 2, Music_PinballNameEntry_Ch2
+	channel 3, Music_PinballNameEntry_Ch3
+	channel 4, Music_PinballNameEntry_Ch4
 
-Music_NameEntry_Ch1:
+Music_PinballNameEntry_Ch1:
 	tempo 144
 	volume 7, 7
 	duty_cycle 3
@@ -30,20 +30,20 @@ Music_NameEntry_Ch1:
 	rest 1
 	note D#, 3
 	rest 3
-Music_NameEntry_branch_4d55c:
+Music_PinballNameEntry_branch_4d55c:
 	duty_cycle 2
 	volume_envelope 6, 8
 	transpose 0, 7
-	sound_call Music_NameEntry_branch_4d80d
+	sound_call Music_PinballNameEntry_branch_4d80d
 	transpose 0, 5
-	sound_call Music_NameEntry_branch_4d80d
-	sound_call Music_NameEntry_branch_4d80d
-Music_NameEntry_branch_4d56d:
+	sound_call Music_PinballNameEntry_branch_4d80d
+	sound_call Music_PinballNameEntry_branch_4d80d
+Music_PinballNameEntry_branch_4d56d:
 	transpose 0, 3
-	sound_call Music_NameEntry_branch_4d80d
-	sound_loop 3, Music_NameEntry_branch_4d56d
+	sound_call Music_PinballNameEntry_branch_4d80d
+	sound_loop 3, Music_PinballNameEntry_branch_4d56d
 	transpose 0, 0
-	sound_call Music_NameEntry_branch_4d80d
+	sound_call Music_PinballNameEntry_branch_4d80d
 	octave 3
 	note C#, 4
 	rest 2
@@ -560,9 +560,9 @@ Music_NameEntry_branch_4d56d:
 	note A_, 4
 	note B_, 1
 	rest 1
-	sound_loop 0, Music_NameEntry_branch_4d55c
+	sound_loop 0, Music_PinballNameEntry_branch_4d55c
 
-Music_NameEntry_branch_4d80d:
+Music_PinballNameEntry_branch_4d80d:
 	octave 2
 	note A#, 2
 	rest 4
@@ -574,7 +574,7 @@ Music_NameEntry_branch_4d80d:
 	rest 4
 	sound_ret
 
-Music_NameEntry_Ch2:
+Music_PinballNameEntry_Ch2:
 	duty_cycle 3
 	vibrato 24, 3, 4
 	note_type 8, 10, 8
@@ -617,7 +617,7 @@ Music_NameEntry_Ch2:
 	volume_envelope 10, 8
 	note F_, 1
 	note F#, 1
-Music_NameEntry_branch_4d854:
+Music_PinballNameEntry_branch_4d854:
 	vibrato 24, 3, 4
 	octave 4
 	note G#, 12
@@ -862,11 +862,11 @@ Music_NameEntry_branch_4d854:
 	note F#, 1
 	volume_envelope 2, 8
 	note F#, 1
-	sound_call Music_NameEntry_branch_4da64
+	sound_call Music_PinballNameEntry_branch_4da64
 	note F#, 4
 	volume_envelope 2, 8
 	note F#, 2
-	sound_call Music_NameEntry_branch_4da8d
+	sound_call Music_PinballNameEntry_branch_4da8d
 	volume_envelope 2, 8
 	note A_, 3
 	volume_envelope 7, 8
@@ -910,13 +910,13 @@ Music_NameEntry_branch_4d854:
 	note G_, 1
 	vibrato 24, 2, 4
 	transpose 0, 12
-	sound_call Music_NameEntry_branch_4da64
+	sound_call Music_PinballNameEntry_branch_4da64
 	transpose 0, 0
 	octave 5
 	note F_, 1
 	note F#, 5
 	transpose 0, 12
-	sound_call Music_NameEntry_branch_4da8d
+	sound_call Music_PinballNameEntry_branch_4da8d
 	volume_envelope 2, 8
 	note A_, 2
 	octave 5
@@ -989,9 +989,9 @@ Music_NameEntry_branch_4d854:
 	note F#, 4
 	note F_, 1
 	note F#, 1
-	sound_loop 0, Music_NameEntry_branch_4d854
+	sound_loop 0, Music_PinballNameEntry_branch_4d854
 
-Music_NameEntry_branch_4da64:
+Music_PinballNameEntry_branch_4da64:
 	volume_envelope 10, 8
 	octave 4
 	note G#, 12
@@ -1024,7 +1024,7 @@ Music_NameEntry_branch_4da64:
 	note G#, 2
 	sound_ret
 
-Music_NameEntry_branch_4da8d:
+Music_PinballNameEntry_branch_4da8d:
 	volume_envelope 10, 8
 	octave 4
 	note F_, 4
@@ -1060,7 +1060,7 @@ Music_NameEntry_branch_4da8d:
 	note A_, 14
 	sound_ret
 
-Music_NameEntry_Ch3:
+Music_PinballNameEntry_Ch3:
 	note_type 8, 2, 2
 	octave 1
 	note F#, 2
@@ -1116,7 +1116,7 @@ Music_NameEntry_Ch3:
 	rest 1
 	note B_, 1
 	rest 1
-Music_NameEntry_branch_4daf5:
+Music_PinballNameEntry_branch_4daf5:
 	note G#, 2
 	rest 2
 	note C#, 1
@@ -1575,7 +1575,7 @@ Music_NameEntry_branch_4daf5:
 	note B_, 1
 	rest 5
 	note G#, 2
-	sound_call Music_NameEntry_branch_4ddc7
+	sound_call Music_PinballNameEntry_branch_4ddc7
 	note D#, 6
 	rest 6
 	note_type 8, 3, 2
@@ -1691,7 +1691,7 @@ Music_NameEntry_branch_4daf5:
 	note B_, 1
 	rest 5
 	note G#, 2
-	sound_call Music_NameEntry_branch_4ddc7
+	sound_call Music_PinballNameEntry_branch_4ddc7
 	note E_, 1
 	rest 1
 	note E_, 1
@@ -1769,9 +1769,9 @@ Music_NameEntry_branch_4daf5:
 	octave 3
 	note D#, 1
 	rest 1
-	sound_loop 0, Music_NameEntry_branch_4daf5
+	sound_loop 0, Music_PinballNameEntry_branch_4daf5
 
-Music_NameEntry_branch_4ddc7:
+Music_PinballNameEntry_branch_4ddc7:
 	note F#, 2
 	rest 2
 	note F#, 1
@@ -1834,7 +1834,7 @@ Music_NameEntry_branch_4ddc7:
 	note_type 8, 2, 2
 	sound_ret
 
-Music_NameEntry_Ch4:
+Music_PinballNameEntry_Ch4:
 	toggle_noise 7
 	drum_speed 12
 	drum_note 6, 16
@@ -1846,41 +1846,41 @@ Music_NameEntry_Ch4:
 	drum_note 2, 2
 	drum_note 2, 2
 	drum_note 3, 2
-Music_NameEntry_branch_4de1e:
-	sound_call Music_NameEntry_branch_4dec7
+Music_PinballNameEntry_branch_4de1e:
+	sound_call Music_PinballNameEntry_branch_4dec7
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 9, 2
-	sound_call Music_NameEntry_branch_4dec7
+	sound_call Music_PinballNameEntry_branch_4dec7
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 2, 2
-	sound_call Music_NameEntry_branch_4dec7
+	sound_call Music_PinballNameEntry_branch_4dec7
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 9, 2
-	sound_call Music_NameEntry_branch_4ded1
+	sound_call Music_PinballNameEntry_branch_4ded1
 	drum_note 9, 2
 	drum_note 8, 2
 	drum_note 3, 2
-	sound_call Music_NameEntry_branch_4dec7
+	sound_call Music_PinballNameEntry_branch_4dec7
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 9, 2
-	sound_call Music_NameEntry_branch_4dec7
+	sound_call Music_PinballNameEntry_branch_4dec7
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 2, 2
-	sound_call Music_NameEntry_branch_4ded1
+	sound_call Music_PinballNameEntry_branch_4ded1
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 3, 2
-	sound_call Music_NameEntry_branch_4dec7
+	sound_call Music_PinballNameEntry_branch_4dec7
 	drum_note 3, 2
 	drum_note 3, 2
 	drum_note 3, 2
-Music_NameEntry_branch_4de4e:
-	sound_call Music_NameEntry_branch_4dedb
+Music_PinballNameEntry_branch_4de4e:
+	sound_call Music_PinballNameEntry_branch_4dedb
 	drum_note 4, 2
 	drum_note 8, 2
 	drum_note 4, 2
@@ -1893,8 +1893,8 @@ Music_NameEntry_branch_4de4e:
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 2, 2
-	sound_loop 3, Music_NameEntry_branch_4de4e
-	sound_call Music_NameEntry_branch_4dedb
+	sound_loop 3, Music_PinballNameEntry_branch_4de4e
+	sound_call Music_PinballNameEntry_branch_4dedb
 	drum_note 4, 2
 	drum_note 8, 2
 	drum_note 4, 2
@@ -1917,9 +1917,9 @@ Music_NameEntry_branch_4de4e:
 	drum_note 3, 2
 	drum_note 8, 2
 	drum_note 3, 2
-Music_NameEntry_branch_4de7a:
-	sound_call Music_NameEntry_branch_4dee8
-	sound_loop 5, Music_NameEntry_branch_4de7a
+Music_PinballNameEntry_branch_4de7a:
+	sound_call Music_PinballNameEntry_branch_4dee8
+	sound_loop 5, Music_PinballNameEntry_branch_4de7a
 	drum_note 4, 2
 	drum_note 8, 2
 	drum_note 7, 2
@@ -1938,9 +1938,9 @@ Music_NameEntry_branch_4de7a:
 	drum_note 2, 2
 	drum_note 2, 2
 	drum_note 3, 2
-Music_NameEntry_branch_4de93:
-	sound_call Music_NameEntry_branch_4dee8
-	sound_loop 7, Music_NameEntry_branch_4de93
+Music_PinballNameEntry_branch_4de93:
+	sound_call Music_PinballNameEntry_branch_4dee8
+	sound_loop 7, Music_PinballNameEntry_branch_4de93
 	drum_note 4, 2
 	drum_note 4, 2
 	drum_note 4, 2
@@ -1980,9 +1980,9 @@ Music_NameEntry_branch_4de93:
 	drum_note 2, 2
 	drum_note 2, 2
 	drum_note 3, 2
-	sound_loop 0, Music_NameEntry_branch_4de1e
+	sound_loop 0, Music_PinballNameEntry_branch_4de1e
 
-Music_NameEntry_branch_4dec7:
+Music_PinballNameEntry_branch_4dec7:
 	drum_note 4, 2
 	drum_note 8, 2
 	drum_note 9, 2
@@ -1994,7 +1994,7 @@ Music_NameEntry_branch_4dec7:
 	drum_note 4, 2
 	sound_ret
 
-Music_NameEntry_branch_4ded1:
+Music_PinballNameEntry_branch_4ded1:
 	drum_note 4, 2
 	drum_note 8, 2
 	drum_note 9, 2
@@ -2006,7 +2006,7 @@ Music_NameEntry_branch_4ded1:
 	drum_note 4, 2
 	sound_ret
 
-Music_NameEntry_branch_4dedb:
+Music_PinballNameEntry_branch_4dedb:
 	drum_note 4, 2
 	drum_note 8, 2
 	drum_note 4, 2
@@ -2021,7 +2021,7 @@ Music_NameEntry_branch_4dedb:
 	drum_note 8, 2
 	sound_ret
 
-Music_NameEntry_branch_4dee8:
+Music_PinballNameEntry_branch_4dee8:
 	drum_note 4, 2
 	drum_note 8, 2
 	drum_note 7, 2

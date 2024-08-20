@@ -1,11 +1,11 @@
-Music_HereComesGR:
+Music_TCG2HereComesGR:
 	channel_count 4
-	channel 1, Music_HereComesGR_Ch1
-	channel 2, Music_HereComesGR_Ch2
-	channel 3, Music_HereComesGR_Ch3
-	channel 4, Music_HereComesGR_Ch4
+	channel 1, Music_TCG2HereComesGR_Ch1
+	channel 2, Music_TCG2HereComesGR_Ch2
+	channel 3, Music_TCG2HereComesGR_Ch3
+	channel 4, Music_TCG2HereComesGR_Ch4
 
-Music_HereComesGR_Ch2:
+Music_TCG2HereComesGR_Ch2:
 .MainLoop
 	speed 1
 	stereo_panning TRUE, TRUE
@@ -781,7 +781,7 @@ Branch_1ea66f:
 	sound_ret
 
 
-Music_HereComesGR_Ch1:
+Music_TCG2HereComesGR_Ch1:
 .MainLoop
 	speed 1
 	stereo_panning TRUE, TRUE
@@ -1459,7 +1459,7 @@ Branch_1ea90c:
 	sound_ret
 
 
-Music_HereComesGR_Ch3:
+Music_TCG2HereComesGR_Ch3:
 	speed 1
 	fade_wave 11
 	channel_volume 1
@@ -1945,7 +1945,7 @@ Branch_1eaaf6:
 	sound_ret
 
 
-Music_HereComesGR_Ch4:
+Music_TCG2HereComesGR_Ch4:
 	toggle_noise 6
 .MainLoop
 	drum_speed 1

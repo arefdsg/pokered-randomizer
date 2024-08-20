@@ -505,6 +505,6 @@ INCLUDE "crysaudio/sfx_crystal.asm"
 
 SECTION "Cries", ROMX
 
-INCLUDE "crysaudio/cry_headers.asm"
+CryHeaders:: INCLUDE "crysaudio/cry_headers.asm"
 
 INCLUDE "crysaudio/cries.asm"

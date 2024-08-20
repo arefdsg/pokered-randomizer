@@ -21,4 +21,5 @@
 	     TRI_ATTACK,   SUBSTITUTE,   FLASH
 	; end
 
-	db 0 ; padding
+	;db 0 ; padding
+	db BANK(PorygonPicFront)
