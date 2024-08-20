@@ -1,3 +1,5 @@
+Forked from https://github.com/dannye/pokered-crysaudio, still needs to have things like the Nuzlocke mode readded and things like having more than 156 Pokémon breaking the game fixed
+
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]
 
 This is a disassembly of Pokémon Red and Blue.
